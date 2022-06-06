@@ -17,7 +17,7 @@ Station = '高雄 (KAOHSIUNG)'
 DataClass = '資料查詢 (Data Inquiry)'
 DataType = '月報表 (monthly data)'
 Date = '2018-01'
-n = 54
+n = 53
 driver = webdriver.Chrome(executable_path='./chromedriver')
 # The webpage of CODiS is rendered dynamically with AJAX. Found this real link by monitoring AJAX response with DevTools.
 url = "https://e-service.cwb.gov.tw/HistoryDataQuery/QueryDataController.do?command=viewMain&_=1649428773019"
