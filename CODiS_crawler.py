@@ -49,7 +49,7 @@ wait.until(EC.number_of_windows_to_be(2))
 # window_handles[1] is a second window
 driver.switch_to.window(driver.window_handles[1])
 
-for i in range(n-1):
+for i in range(n):
     element_downloadBTN = wait.until(EC.element_to_be_clickable((By.ID, 'downloadCSV')))
     element_downloadBTN.click()
 
